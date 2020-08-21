@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+*,
+*::after,
+*::before {
+  font-family: "Ubuntu", sans-serif,'Font Awesome\ 5 Free' !important;
+}
+
+
+body {
+  background: url(./assets/25.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-blue {
+  background-color: #1089ff;
+}
+
+.text-blue{
+  color: #1089ff;
+}
+
+.flexible {
+  display: flex;
+}
+
+
+.pl-lg{
+  padding-left:100px ;
+}
+

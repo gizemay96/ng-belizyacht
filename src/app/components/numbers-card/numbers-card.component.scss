@@ -1,0 +1,25 @@
+.card-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-items {
+    padding: 80px 0;
+    text-align: center;
+    .number {
+      font-size: 50px;
+      color: white;
+     /* don't forget to set a duration! */
+    }
+    .text {
+      color: white;
+      font-size: 25px;
+    }
+    @media only screen and (max-width: 600px) {
+        .row {
+          margin: 0;
+        }
+    
+  }
+}
+  
+  

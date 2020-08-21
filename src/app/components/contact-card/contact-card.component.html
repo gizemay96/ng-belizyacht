@@ -1,0 +1,19 @@
+<div class="contact-card">
+  <div class="card-content">
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+    <button *ngIf="buttonText" class="btn btn-lg">{{ buttonText }}</button>
+    <div class="brand" *ngIf="imgSrc">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="logo col-8">
+            <img [src]="imgSrc" alt="belizLogo" />
+          </div>
+          <div class="text text-white col-4">
+            <h1>BELİZ YAT</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
