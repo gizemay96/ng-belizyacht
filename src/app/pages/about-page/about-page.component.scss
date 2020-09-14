@@ -10,20 +10,10 @@
     }
   }
 
-  .content {
-    h4 {
-      font-family: "Dancing Script", cursive !important;
-    }
-  }
   .header {
-    .welcome-text {
-      padding-bottom: 30px;
-      margin-bottom: 30px;
-      span{
-        border-bottom: 2px solid #007bff !important;
-      }
+    align-items: flex-start !important;
     }
-  }
+  
 
   .info-group {
     .info-text {

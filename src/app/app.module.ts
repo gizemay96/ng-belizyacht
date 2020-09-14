@@ -19,6 +19,8 @@ import { NgxGalleryModule } from 'ngx-gallery-9';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { NumbersCardComponent } from './components/numbers-card/numbers-card.component';
 import { ContactCardComponent } from './components/contact-card/contact-card.component';
+import { SpecificationsComponent } from './pages/specifications/specifications.component';
+import { TableCardComponent } from './components/table-card/table-card.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { ContactCardComponent } from './components/contact-card/contact-card.com
     PhotosPageComponent,
     ContactPageComponent,
     NumbersCardComponent,
-    ContactCardComponent
+    ContactCardComponent,
+    SpecificationsComponent,
+    TableCardComponent
   ],
   imports: [
     BrowserModule,

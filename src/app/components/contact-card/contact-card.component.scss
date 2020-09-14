@@ -21,6 +21,12 @@
   .logo{
     max-width: 200px;
     max-height: 200px;
+    @media only screen and (max-width: 600px) {
+      
+        max-width: 120px;
+        max-height: 120px;
+      
+    }
 
     img{
       width: 100%;
@@ -32,6 +38,10 @@
     max-width: 345px;
     h1{
       font-size: 70px;
+      @media only screen and (max-width: 600px) {
+      font-size: 40px;
+      
+    }
       
     }
   }

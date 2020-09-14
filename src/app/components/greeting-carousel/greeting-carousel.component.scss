@@ -34,7 +34,7 @@ $bootstrap-xl: 1200px;
 .carousel-item,
 .carousel-item:active {
   @media (min-width: 200px) {
-    height: 300px;
+    height: 350px;
     overflow: hidden;
   }
   @media (min-width: $bootstrap-md) {
@@ -64,6 +64,20 @@ $bootstrap-xl: 1200px;
     @media (min-width: $bootstrap-xl) {
       font-size: 80px;
       padding-bottom: 30px;
+    }
+    @media (max-width: $bootstrap-sm) {
+      display: none;
+    }
+  }
+
+  .btn-carousel{
+    // background: rgba(98, 204, 253, 0.356);
+    background: #1088ff3b;
+    color: rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+    font-size: 13px;
+    @media (min-width: $bootstrap-sm) {
+      display: none;
     }
   }
 }

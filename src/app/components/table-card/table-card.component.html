@@ -1,0 +1,11 @@
+<div class="table-card" *ngFor="let dataItem of data">
+    <div class="items">
+        <div class="title">
+            <h5 class="text-secondary"> {{dataItem.title}} </h5>
+        </div>
+        <div class="text">
+            <p class="text-secondary"> {{dataItem.text}} </p>
+            <p *ngIf="!dataItem.text"><i class="fas fa-check text-secondary"></i></p>
+        </div>
+    </div>
+</div>

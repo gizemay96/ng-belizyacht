@@ -7,6 +7,7 @@ import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { TourTypesPageComponent } from './pages/tour-types-page/tour-types-page.component';
 import { PhotosPageComponent } from './pages/photos-page/photos-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { SpecificationsComponent } from './pages/specifications/specifications.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'tours',component:TourTypesPageComponent},
   {path:'photos',component:PhotosPageComponent},
   {path:'contact',component:ContactPageComponent},
+  {path:'specifications',component:SpecificationsComponent},
 ];
 
 @NgModule({

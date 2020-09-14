@@ -1,44 +1,54 @@
-.top-card{
-    background-color: #F8F9FA !important;
+.top-card {
+    background-color: #f8f9fa !important;
 
-    .text{
-        .title{
+    .text {
+        .title {
             font-size: 17px;
             font-weight: 600;
         }
     }
 }
 
-.logo{
+.logo {
     max-width: 160px;
     max-height: 160px;
     overflow: hidden;
     margin-right: 60px;
-    img{
+
+    img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
 }
 
-.icon-envelope,.icon-phone,.icon-location-arrow{
+.icon-envelope,
+.icon-phone,
+.icon-location-arrow {
     font-size: 16px;
     padding: 10px 12px;
-    border-radius: 50%;   
+    border-radius: 50%;
     background-color: #1089ff;
     color: snow;
 }
 
-.icon{
+.icon {
     padding-top: 10px;
 }
 
-.items{
+.items {
     padding: 25px 0;
 }
 
-@media only screen and (max-width: 600px) {
-    .top-card{
+@media only screen and (max-width: 991px) {
+    .top-card {
         display: none;
     }
-  }
+}
+.instagram-link {
+    color: #1089ff;
+    &:hover {
+        text-decoration: none;
+        color: darken($color: #1089ff, $amount: 15%);
+    }
+}

@@ -5,6 +5,7 @@
   .card-items {
     padding: 80px 0;
     text-align: center;
+    
     .number {
       font-size: 50px;
       color: white;
@@ -17,7 +18,14 @@
         .row {
           margin: 0;
         }
-    
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .number-items {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
   }
 }
   
