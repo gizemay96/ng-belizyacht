@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div *ngFor="let crew of data" class="team-card col-lg-6 col-md-6">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img [src]="crew.src" alt="Avatar" class="image" />
+            <div class="front-texts">
+              <h1>{{ crew.position }}</h1>
+              <p>Bilgi için görsele tıklayınız.</p>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class="back-texts">
+              <h3>{{ crew.name }}</h3>
+              <p>
+                {{ crew.description }}
+              </p>
+              <div class="social-icons d-flex justify-content-center">
+                <i class="fab fa-facebook text-blue icon"></i>
+                <i class="fab fa-twitter text-blue icon"></i>
+                <i class="fab fa-instagram text-blue icon"></i>
+                <i class="fab fa-google text-blue icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

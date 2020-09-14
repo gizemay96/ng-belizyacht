@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div
+      *ngFor="let service of data"
+      class="service-card col-lg-4 col-md-6 col-sm-12"
+    >
+      <div class="body">
+        <div class="icon d-flex align-items-center">
+          <img [src]="service.icon" alt="" />
+        </div>
+        <div class="content">
+          <h5>{{ service.title }}</h5>
+          <p>
+            {{ service.description }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

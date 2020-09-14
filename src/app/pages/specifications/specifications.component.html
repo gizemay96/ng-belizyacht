@@ -1,35 +1,43 @@
 <div class="specifications bg-white p-5">
+  <div class="header col-12">
+    <h4 class="text-primary">Tekne Özellikleri</h4>
+    <h3 class="welcome-text">
+      <span>Aklınızda Soru İşareti Kalmasın...</span>
+    </h3>
+  </div>
 
-    <div class="header col-12">
-        <h4 class="text-primary">Tekne Özellikleri</h4>
-        <h3 class="welcome-text"><span>Aklınızda Soru İşareti Kalmasın...</span></h3>
-    </div>
-
-    <div class="container">
-        <ngb-tabset [justify]="currentJustify">
-            <ngb-tab title="Genel Özellikler">
-                <ng-template ngbTabContent>
-                    <div class="table">
-                        <app-table-card [data]="genericSpec"></app-table-card>
-                    </div>
-                </ng-template>
-            </ngb-tab>
-            <ngb-tab>
-                <ng-template ngbTabTitle class="bla">Kamara Özellikleri</ng-template>
-                <ng-template ngbTabContent>
-                    <div class="table">
-                        <app-table-card [data]="cabinSpec"></app-table-card>
-                    </div>
-                </ng-template>
-            </ngb-tab>
-            <ngb-tab title="Diğer Özellikler">
-                <ng-template ngbTabContent>
-                    <div class="table">
-                        <app-table-card [data]="otherSpec"></app-table-card>
-                    </div>
-                </ng-template>
-            </ngb-tab>
-        </ngb-tabset>
-
-    </div>
+  <div class="container">
+    <ngb-tabset [justify]="currentJustify">
+      <ngb-tab>
+        <ng-template ngbTabTitle
+          ><span class="title">Genel Özellikler</span></ng-template
+        >
+        <ng-template ngbTabContent>
+          <div class="table">
+            <app-table-card [data]="genericSpec"></app-table-card>
+          </div>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab>
+        <ng-template ngbTabTitle
+          ><span class="title">Kamara Özellikleri</span></ng-template
+        >
+        <ng-template ngbTabContent>
+          <div class="table">
+            <app-table-card [data]="cabinSpec"></app-table-card>
+          </div>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab>
+        <ng-template ngbTabTitle
+          ><span class="title">Diğer Özellikler</span></ng-template
+        >
+        <ng-template ngbTabContent>
+          <div class="table">
+            <app-table-card [data]="otherSpec"></app-table-card>
+          </div>
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
+  </div>
 </div>

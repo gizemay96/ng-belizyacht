@@ -4,9 +4,11 @@
     color: white;
     font-size: 21px;
     padding: 15px 15px;
-
     &:hover {
       color: darken($color: #1089ff, $amount: 15%);
+    }
+    @media (max-width: 1200px) {
+      font-size: 17px;
     }
   }
 }

@@ -1,5 +1,11 @@
 @media (min-width: 625px) {
-    .table {
-        padding: 50px 20px;
-    }
+  .table {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 439px) {
+  .title {
+    font-size: 18px;
+  }
 }

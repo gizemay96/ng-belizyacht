@@ -21,6 +21,9 @@ import { NumbersCardComponent } from './components/numbers-card/numbers-card.com
 import { ContactCardComponent } from './components/contact-card/contact-card.component';
 import { SpecificationsComponent } from './pages/specifications/specifications.component';
 import { TableCardComponent } from './components/table-card/table-card.component';
+import { PersonCardComponent } from '../app/components/person-card/person-card.component';
+import { ServiceCardComponent } from './components/service-card/service-card.component';
+import { TourCardComponent } from './components/tour-card/tour-card.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { TableCardComponent } from './components/table-card/table-card.component
     NumbersCardComponent,
     ContactCardComponent,
     SpecificationsComponent,
-    TableCardComponent
+    TableCardComponent,
+    PersonCardComponent,
+    ServiceCardComponent,
+    TourCardComponent
   ],
   imports: [
     BrowserModule,
